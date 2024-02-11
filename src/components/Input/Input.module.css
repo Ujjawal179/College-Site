@@ -1,0 +1,10 @@
+.input{
+    all: unset;
+    display: block;
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid var(--foreground);
+    font-size: larger;
+    color: var(--foreground);
+    margin: 1rem 0 ;
+}

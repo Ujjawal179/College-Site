@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground:#45474B;
+  --yellow: #F4CE14;
+  --background: #F5F7F8;
+  --onhover: #DED0B6 ;
+}
+
+body {
+  color: (var(--foreground));
+  background-color: var(--background);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

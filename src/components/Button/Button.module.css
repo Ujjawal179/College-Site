@@ -1,0 +1,16 @@
+.button{
+    font-weight: 800;
+    color: var(--background);
+    border-radius: 10px;
+    padding:.35rem .5rem ;
+    background-color: var(--yellow);
+    color: var(--background);
+    transition: .5s ease-in-out;
+    
+    
+}
+
+.button:hover {
+    background-color: var(--foreground);
+    color: var(--background);
+}
