@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.head{
+    color: var(--yellow);
+    font-size: xxx-large;
+    font-weight: 700;
+}
+
+.desc{
+    color: var(--onhover);
+}
