@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { NavBar } from "@/components/NavBar/NavBar";
-import { Attendance } from "@/components/Attendance/attendance";
+import { Alert } from "@/components/Alert/alert";
 
 export default function Attend() {
   return (
     <>
     <NavBar/>
-    <Attendance/>
+    <Alert/>
     </>
   );
 }

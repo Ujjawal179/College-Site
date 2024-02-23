@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { NavBar } from "@/components/NavBar/NavBar";
-import { Contactpage } from "@/components/Contact/Contact";
+import { Lost } from "@/components/Lost/Lost";
 
-export default function Contact() {
+export default function lost() {
   return (
     <>
     <NavBar/>
-    <Contactpage/>
+    <Lost/>
     </>
   );
 }

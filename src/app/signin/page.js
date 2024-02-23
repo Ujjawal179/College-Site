@@ -5,7 +5,9 @@ export default function Signin() {
   return (
     <>
     <NavBar/>
-    <Createacc/>
+    <br/>
+    <br/>
+    <Createacc />
     </>
   );
 }

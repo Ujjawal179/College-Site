@@ -14,7 +14,15 @@ export function Attendance(){
                     Manage Your Attendance in a simlpified way!!!
                 </span>
                 <div className={Style.table}>
-                    <Attendancebar/>
+                    <Attendancebar sub={"Physics"} percent={70}/>
+                    <Attendancebar sub={"Chemistry"} percent={80}/>
+                    <Attendancebar sub={"Math"} percent={100}/>
+                    <Attendancebar sub={"Computer"} percent={60}/>
+                    <Attendancebar sub={"Software"} percent={31}/>
+                    <Attendancebar sub={"Workshop"} percent={90}/>
+                    <Attendancebar sub={"Mechenical"} percent={100}/>
+
+
                 </div>
             </div>
         </>

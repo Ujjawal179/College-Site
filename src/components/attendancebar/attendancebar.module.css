@@ -1,0 +1,41 @@
+.col{
+    background-color: rgb(0, 0, 0, 0.05);
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 1rem ;
+    
+    /* flex: 1 0 40%; */
+}
+
+.top{
+    margin: 1rem 0;
+}
+
+.title{
+    font-weight: 600;
+    display: block;
+}
+
+.teacher{
+    color: grey;
+}
+
+.bar {
+    width: 20rem;
+    height: 1.5rem;
+    border: 2px solid;
+    margin-top: .2rem;
+    border-radius: 30px;
+    box-shadow: 0px 0 3px;
+  }
+
+.prog{
+    height: 1.3rem;
+    background-color: var(--yellow);
+    font-weight: 700;
+    color: var(--background);
+    text-shadow: 0 0 4px var(--foreground);
+    
+  text-align: center;
+    border-radius: inherit;
+}

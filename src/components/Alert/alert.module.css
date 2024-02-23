@@ -15,11 +15,5 @@
 
 .desc{
     color: var(--onhover);
-}
-
-.table{
-    margin-left: 5rem;
-    display: flex;
-    /* flex: 1 0 40%; */
-    flex-wrap: wrap;
+    margin-bottom: 3rem;
 }

@@ -1,0 +1,31 @@
+.col{
+    
+    background-color: rgb(0, 0, 0, 0.05);
+    margin: .5rem;
+    display: flex;
+    max-width: 1400px;
+    width: 70%;
+    border:  3px solid  var(--foreground);
+    border-radius: 20px;
+    height: 260px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.title{
+    font-size: larger;
+}
+
+.image{
+    height: 255px;
+    width: 600px;
+    /* height: inherit; */
+    object-fit: cover;
+    border-radius:  20px 0 0  20px  ;
+
+
+}

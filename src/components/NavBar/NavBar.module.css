@@ -1,4 +1,10 @@
+/* .nav{
+    position: sticky;
+    width: 100vw;
+} */
+
 .navbar{
+    background-color: rgb(224 225 225);
 
     display: flex;
     justify-content: center;
@@ -9,6 +15,11 @@
 
 .logo{
     margin-right: auto;
+    font-size: x-large;
+    background-color: var(--yellow);
+    color: var(--background);
+    padding: 0 10px;
+    border-radius: 20px;
 }
 
 .navitem{
@@ -19,3 +30,14 @@
     margin-left: auto;
 }
 
+.btn{
+    position: fixed;
+    bottom: 10px;
+      right: 10px;
+      padding: 10px 20px;
+      background-color: red;
+      color: var(--background);
+      border-radius: 20px;
+      font-weight: 800;
+      z-index: 100;
+}

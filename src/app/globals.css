@@ -15,6 +15,7 @@ body {
 }
 
 *{
+  color: (var(--foreground));
   
   font-family: "Ubuntu", sans-serif;
 }
